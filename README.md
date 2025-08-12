@@ -11,7 +11,9 @@ It implements **four simple (stub) commands** for the assignment:
 • `mv ` — echoes: `Moved to `
 • `del ` — echoes: `Deleted `
 These handlers demonstrate parsing and output and **do not** modify files on disk (kept simple for this project).
-Instructions to run
+
+**Instructions to run**
+
 1. **Install requirements (Ubuntu/Debian):**
 sudo apt-get update
 sudo apt-get install -y nasm qemu-system-i386 dosfstools
