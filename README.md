@@ -12,7 +12,9 @@ It implements **four simple (stub) commands**:
 • `del ` — prints: `Deleted `
 These handlers demonstrate parsing and output and **do not** modify files on disk (kept simple for the
 assignment).
-Instructions to run
+
+**Instructions to run**
+
 1. **Install requirements (Ubuntu/Debian):**
 sudo apt-get update
 sudo apt-get install -y nasm qemu-system-i386 dosfstools
@@ -25,10 +27,10 @@ copies `README.TXT` and `OTHER.TXT` into it, then writes the boot sector and ker
 4. **Run in QEMU:**
 ./run.sh
 5. **Try the commands in QEMU:**
-ls
-rn foo bar
-mv alpha beta
-del gamma
+ ls
+ rn foo bar
+ mv alpha beta
+ del gamma
 Files
 • `boot.asm` — 512-byte boot sector; loads kernel from sector 2 and jumps to it
 • `kernel.asm` — simple shell with `ls`, `rn`, `mv`, `del`
