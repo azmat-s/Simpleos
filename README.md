@@ -26,7 +26,8 @@ copies `README.TXT` and `OTHER.TXT` into it, then writes the boot sector and ker
 4. **Run in QEMU:**
 ./run.sh
 5. **Try the commands in QEMU:**
-ls
+ls 
+
 rn foo bar
 mv alpha beta
 del gamma
